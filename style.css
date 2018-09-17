@@ -1,4 +1,77 @@
+/*
+Theme Name: original
+Theme URL: テーマのサイトのURI
+Description: テーマの説明
+Author: 作者の名前
+Version: テーマのバージョン
+Tags: テーマの特徴を表すタグ（カンマ区切り/オプション）
+License: テーマのライセンス
+License URI: テーマのライセンスのURI
+*/
 
-h1 {
-  color: black;
+
+/* header.php */
+
+.navbar-light .navbar-brand {
+    color: #FF007A!important;
+    font-family: sans-serif!important;
+    font-size: 35px!important;
+}
+
+.navbar-nav {
+    margin-left: 36px;
+    font-size: 14px;
+
+
+
+}
+
+.navbar-nav a {
+   font-size: 13px!important;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer.php */
+
+
+footer {
+  text-align: center;
+  margin-top: 11px;
 }
