@@ -27,9 +27,14 @@
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav">
 
-  <a class="nav-item nav-link" href="#">物流部門</small></a>
-  <a class="nav-item nav-link" href="#">フットサル事業</a>
-  <a class="nav-item nav-link" href="#">アパレル事業</a>
+    <a class="nav-item nav-link" href="#">物流事業</a>
+    <a class="nav-item nav-link" href="#">フットサル事業</a>
+    <a class="nav-item nav-link" href="#">アパレル事業</a>
+    <a class="nav-item nav-link" href="#">Bassについて</a>
+    <a class="nav-item nav-link" href="#">お問い合わせ</a>
+
     </div>
+
   </div>
+
 </nav>
