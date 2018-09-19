@@ -32,36 +32,38 @@ License URI: テーマのライセンスのURI
 }
 
 
+/* front-page.php */
 
 
+.main-img {
+  background-image: url("images/top3.jpg");
+  background-size: auto;
+  background-position: center;
+  width: 100%;
+  height: 500px;
+}
 
+.main-img h2 {
+  color: #FFF;
+  line-height: 500px;
+  text-align: center;
+  font-size: 77px;
+}
 
+.main-img h3 {
+  color: #FFF;
+  line-height: 400px;
+  text-align: center;
 
+}
+.bg-inner {
+  background-color: rgba(0,0,0,0.3);
+  height: 500px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.main-img span {
+  color: #FF007A;
+}
 
 
 
@@ -72,6 +74,6 @@ License URI: テーマのライセンスのURI
 
 
 footer {
-  text-align: center;
+  /* text-align: center; */
   margin-top: 11px;
 }

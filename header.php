@@ -16,7 +16,7 @@
     </head>
     <body <?php body_class(); ?>>
 
-      <nav class="navbar navbar-expand-lg navbar-light">
+<nav class="navbar navbar-expand-lg navbar-light">
   <a class="navbar-brand" href="#">
     <?php bloginfo( $name ); ?>
 
@@ -33,5 +33,3 @@
     </div>
   </div>
 </nav>
-
-        </header>
