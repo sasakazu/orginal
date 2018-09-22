@@ -16,12 +16,15 @@ License URI: テーマのライセンスのURI
 /* header.php */
 
 .topnav {
-
+  height: 50px;
 }
 
 .nav-title a {
   padding-left: 10px;
   color: #ED4D80;
+  font-size: 41px;
+  padding: 5px 25px;
+  font-weight: bold;
 }
 
 .topnav ul {
@@ -32,11 +35,18 @@ License URI: テーマのライセンスのURI
   float: left;
   list-style: none;
   margin-right: 18px;
+  margin-top: 22px;
 }
 
 .topnav a {
   text-decoration: none;
   float: left;
+
+}
+
+.nav-item a:hover {
+  border-bottom: 2px solid #ED4D80;
+
 }
 
 .nav-title h1 {
@@ -44,6 +54,36 @@ License URI: テーマのライセンスのURI
 }
 
 /* front-page.php */
+
+.viewer {
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.viewer ul {
+    width: 1200px;
+    height: 700px;
+    overflow: hidden;
+    position: relative;
+}
+
+.viewer ul li {
+    top: 0;
+    left: 0;
+    width: 400px;
+    height: 300px;
+    display: none;
+    position: absolute;
+}
+
+.viewer img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+}
 
 
 

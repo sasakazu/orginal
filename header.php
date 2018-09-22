@@ -4,7 +4,8 @@
         <meta charset="UTF-8">
         <title><?php wp_title( ' | ', true, 'right' ); ?></title>
         <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>">
-
+        <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.18.1/build/cssreset/cssreset-min.css">
+      
         <?php wp_head(); ?>
     </head>
     <body <?php body_class(); ?>>
@@ -16,7 +17,7 @@
 
         </div>
 
-        <ul>
+        <ul class="nav-item">
           <li><a href="">SERVISE</a></li>
           <li><a href="">ABOUT</a></li>
           <li><a href="">CONTACT</a></li>
