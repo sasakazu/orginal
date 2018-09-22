@@ -1,42 +1,44 @@
 <?php get_header(); ?>
 
-<div class="top-image">
-
-  <div class="viewer">
-    <ul>
-      <li><img src="<?php echo get_template_directory_uri(); ?>/images/1920.jpg" alt="">
-      <li><img src="<?php echo get_template_directory_uri(); ?>/images/jetliner.jpg" alt="">
-      <li><img src="<?php echo get_template_directory_uri(); ?>/images/black.jpg" alt="">
-    </ul>
-  </div>
 
 
-  <h2>Bass Co., Ltd.</h2>
-  <h3>logistic - futsal - aparel</h3>
+<div class="wrapper">
+
+    <div style="background-image: url(<?php bloginfo('template_url'); ?>/images/bad-weather.jpg);"></div>
+    <div style="background-image: url(<?php bloginfo('template_url'); ?>/images/black.jpg);"></div>
+    <div style="background-image: url(<?php bloginfo('template_url'); ?>/images/jetliner.jpg);"></div>
+
+
+
 </div>
 
 
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script type="text/javascript">
+
+
 $(function(){
-    var $setElm = $('.viewer'),
-    fadeSpeed = 2500,
-    switchDelay = 7000;
-
-    $setElm.each(function(){
-        var targetObj = $(this);
-        var findUl = targetObj.find('ul');
-        var findLi = targetObj.find('li');
-        var findLiFirst = targetObj.find('li:first');
-
-        findLi.css({display:'block',opacity:'0',zIndex:'99'});
-        findLiFirst.css({zIndex:'100'}).stop().animate({opacity:'1'},fadeSpeed);
-
-        setInterval(function(){
-            findUl.find('li:first-child').animate({opacity:'0'},fadeSpeed).next('li').css({zIndex:'100'}).animate({opacity:'1'},fadeSpeed).end().appendTo(findUl).css({zIndex:'99'});
-        },switchDelay);
-    });
+$('.wrapper div:gt(0)').hide();
+var interval = 6000,
+    anim = (function () {
+    var i = 0,
+        timing = interval / 1000 * 60;
+    return function () {
+        if (i % timing === 0) {
+            $('.wrapper div:first-child').fadeOut(4000).next('div').fadeIn(4000).end().appendTo('.wrapper');
+        }
+        i++;
+    };
+})();
+(function animloop() {
+    anim();
+    window.requestAnimationFrame(animloop);
+})();
 });
+
+
+
 </script>
+
 
 <?php get_footer(); ?>
