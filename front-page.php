@@ -20,7 +20,7 @@
 
   </div>
 
-  <div class="top-image"style="background-image:url(<?php bloginfo('template_directory'); ?>/images/black.jpg);">
+  <div class="top-image" style="background-image:url(<?php bloginfo('template_directory'); ?>/images/baby.jpg);">
     <div class="bg-inner">
       <h2>Bass Co., Ltd.</h2>
       <p>- Logistic Futsal Aparel -</p>
@@ -29,19 +29,72 @@
   </div>
 
 
+</div>
 
+
+
+<div class="servise" style="background-image:url(<?php bloginfo('template_directory'); ?>/images/women.jpg);">
+
+    <h2>SERVISE</h2>
+
+    <div class="servise-wrapper">
+      <div class="servise-contents">
+Logistic
+      </div>
+
+      <div class="servise-contents">
+        futsal
+
+      </div>
+
+      <div class="servise-contents">
+aparel
+
+      </div>
+      <div class="servise-contents">
+    other
+
+      </div>
+
+
+  </div>
 
 </div>
 
-<h1>dkjngdlkfkl</h1>
-<h2>nkvnvlk</h2>
-<h3>kdnfklv</h3>
+
+<div class="about" style="background-image:url(<?php bloginfo('template_directory'); ?>/images/lionking.jpg);">
+  <div class="bg-inner">
+    <div class="about-contents">
+
+
+  <h2>ABOUT</h2>
+
+
+  <table>
+    <tr><td id="table-header">会社名</td><td id="table-detail">Bass Co,. Ltd.</td>
+    <tr><td id="table-header">代表者</td><td id="table-detail">小林　武</td>
+    <tr><td id="table-header">設立日</td><td id="table-detail">2014年11月4日</td>
+    <tr><td id="table-header">事業内容</td><td id="table-detail">運送　フットサル　アパレル</td>
+    <tr><td id="table-header">A</td><td id="table-detail">B</td>
+    <tr><td id="table-header">A</td><td id="table-detail">B</td>
+    <tr><td id="table-header">A</td><td id="table-detail">B</td>
+
+  </table>
+
+
+<p id="blank"></p>
+
+</div>
+
+
+  </div>
+</div>
 
 <script>
 $('.your-class').slick({
 
   infinite: true,
-  speed: 1300,
+  speed: 1700,
   autoplaySpeed: 5000,
   fade: true,
   cssEase: 'linear',
