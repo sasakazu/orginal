@@ -11,67 +11,58 @@ License URI: テーマのライセンスのURI
 
 /* 全体 */
 
-
-
 /* header.php */
 
 .topnav {
   height: 50px;
+   overflow: hidden;
 }
 
-.nav-title a {
-  padding-left: 10px;
-  color: #ED4D80;
-  font-size: 41px;
-  padding: 5px 25px;
-  font-weight: bold;
+.nav-title {
+
 }
 
-.topnav ul {
-  float: right;
-}
 
 .topnav li {
   float: left;
-  list-style: none;
-  margin-right: 18px;
-  margin-top: 22px;
 }
 
-.topnav a {
-  text-decoration: none;
-  float: left;
-
+.topnav li a {
+  display: block;
 }
 
-.nav-item a:hover {
-  border-bottom: 2px solid #ED4D80;
-
-}
-
-.nav-title h1 {
-  float: left;
-}
 
 /* front-page.php */
 
-.wrapper{
-  width: 100%;
-  height:100%;
-  display: block;
-  position: fixed;
+.bg-inner {
+  background: rgba(0, 0, 0, 0.5);
 }
 
-.wrapper div{
-  height:100%;
-  width:100%;
+.your-class {
   background-size: cover;
-  position: absolute;
-  top:0;
-  left:0;
+  /* width: 100%; */
 }
 
+.top-image {
+  background-size: cover;
+  background-position: center;
+}
 
+.your-class h2 {
+  padding-top: 250px;
+  padding-bottom: 3px;
+  text-align: center;
+  color: #FFF;
+  font-size: 98px;
+  font-weight: bold;
+
+}
+
+.your-class p {
+  color: #FFF;
+  text-align: center;
+  padding-bottom: 300px;
+}
 
 
 /* footer.php */
@@ -82,4 +73,4 @@ footer {
   margin-top: 11px;
   clear: both;
 
-}
+ }

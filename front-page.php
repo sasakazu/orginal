@@ -2,42 +2,52 @@
 
 
 
-<div class="wrapper">
+<div class="your-class">
 
-    <div style="background-image: url(<?php bloginfo('template_url'); ?>/images/bad-weather.jpg);"></div>
-    <div style="background-image: url(<?php bloginfo('template_url'); ?>/images/black.jpg);"></div>
-    <div style="background-image: url(<?php bloginfo('template_url'); ?>/images/jetliner.jpg);"></div>
+  <div class = "top-image" style="background-image:url(<?php bloginfo('template_directory'); ?>/images/1920.jpg);" >
+    <div class = "bg-inner">
+      <h2>Bass Co., Ltd.</h2>
+      <p>- Logistic Futsal Aparel -</p>
+    </div>
+  </div>
+
+  <div class="top-image"style="background-image:url(<?php bloginfo('template_directory'); ?>/images/jetliner.jpg);">
+    <div class="bg-inner">
+      <h2>Bass Co., Ltd.</h2>
+      <p>- Logistic Futsal Aparel -</p>
+
+    </div>
+
+  </div>
+
+  <div class="top-image"style="background-image:url(<?php bloginfo('template_directory'); ?>/images/black.jpg);">
+    <div class="bg-inner">
+      <h2>Bass Co., Ltd.</h2>
+      <p>- Logistic Futsal Aparel -</p>
+
+    </div>
+  </div>
+
 
 
 
 </div>
 
+<h1>dkjngdlkfkl</h1>
+<h2>nkvnvlk</h2>
+<h3>kdnfklv</h3>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<script type="text/javascript">
+<script>
+$('.your-class').slick({
 
+  infinite: true,
+  speed: 2000,
+  autoplaySpeed: 5000,
+  fade: true,
+  cssEase: 'linear',
+  autoplay: true
 
-$(function(){
-$('.wrapper div:gt(0)').hide();
-var interval = 6000,
-    anim = (function () {
-    var i = 0,
-        timing = interval / 1000 * 60;
-    return function () {
-        if (i % timing === 0) {
-            $('.wrapper div:first-child').fadeOut(4000).next('div').fadeIn(4000).end().appendTo('.wrapper');
-        }
-        i++;
-    };
-})();
-(function animloop() {
-    anim();
-    window.requestAnimationFrame(animloop);
-})();
 });
-
-
-
 </script>
 
 
