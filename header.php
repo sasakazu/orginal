@@ -20,24 +20,28 @@
     </head>
     <body <?php body_class(); ?>>
 
+      <a href="#" id="bass">BASS</a>
+
 
       <ul class="globalNav">
-          <li class="active">
+
+
+          <li>
               <a href="#">
-                  <strong>ホーム</strong>
-                  <span>home</span>
+                  <strong>SERVISE</strong>
+                  <span>事業内容</span>
               </a>
           </li>
           <li>
               <a href="#">
-                  <strong>会社概要</strong>
-                  <span>company</span>
+                  <strong>ABOUT</strong>
+                  <span>会社概要</span>
               </a>
           </li>
           <li>
               <a href="#">
-                  <strong>お問い合せ</strong>
-                  <span>contact</span>
+                  <strong>CONTACT</strong>
+                  <span>お問い合わせ</span>
               </a>
           </li>
       </ul>

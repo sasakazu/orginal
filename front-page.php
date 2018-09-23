@@ -41,7 +41,7 @@
 $('.your-class').slick({
 
   infinite: true,
-  speed: 2000,
+  speed: 1300,
   autoplaySpeed: 5000,
   fade: true,
   cssEase: 'linear',

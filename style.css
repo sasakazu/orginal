@@ -13,24 +13,56 @@ License URI: テーマのライセンスのURI
 
 /* header.php */
 
-.topnav {
-  height: 50px;
-   overflow: hidden;
+.globalNav {
+    list-style: none;
+    overflow: hidden;
 }
 
-.nav-title {
+.globalNav li {
+    float: left;
+    border-right: 1px solid #DDD;
 
 }
 
+.globalNav li:first-child {
+    border-left: 1px solid #DDD;
 
-.topnav li {
+}
+
+.globalNav li a {
+    display: block;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+
+}
+
+.globalNav li a span {
+    display: block;
+    color: #AAA;
+    text-transform: uppercase;
+    font-size: 80%;
+    letter-spacing: 1px;
+    margin: 3px 0 0 0;
+}
+
+.globalNav li a:hover {
+    background: #EEE;
+}
+
+
+#bass {
   float: left;
+  font-size: 30px;
+  overflow: hidden;
+  margin-right: 33px;
+  margin-left: 24px;
+  margin-top: 12px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #ED4D80;
 }
-
-.topnav li a {
-  display: block;
-}
-
 
 /* front-page.php */
 
