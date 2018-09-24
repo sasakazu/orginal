@@ -90,6 +90,32 @@ aparel
   </div>
 </div>
 
+<div class="middle">
+
+</div>
+
+<div class="contact" style="background-image:url(<?php bloginfo('template_directory'); ?>/images/agreement.jpg);" >
+  <div class="bg-inner">
+    <div class="contact-contents">
+      <h2>BASS Co., Ltd.</h2>
+      <p>お気楽にお問い合わせください</p>
+      <a href="#">
+         <i class="far fa-envelope">メールで問い合わせる</i>
+        <!-- メールで問い合わせる -->
+      </a>
+      <div id="space">
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
 <script>
 $('.your-class').slick({
 
