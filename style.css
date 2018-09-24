@@ -15,7 +15,7 @@ License URI: テーマのライセンスのURI
 /* header.php */
 
 .globalNav {
-    list-style: none;
+    /* list-style: none; */
     overflow: hidden;
 }
 
@@ -109,11 +109,17 @@ License URI: テーマのライセンスのURI
    background-size: cover;
    background-position: center;
 
+
+}
+
+.servise-contents {
+  width: 100%;
 }
 
 .servise-wrapper {
   overflow: hidden;
-  padding-bottom: 266px;
+  padding-bottom: 166px;
+
 }
 
 .servise h2 {
@@ -129,35 +135,33 @@ License URI: テーマのライセンスのURI
 
 .servise-contents a {
   display: block;
-  width: 40%;
+  width: 49%;
   float: left;
+  text-align: center;
+  margin: 26px 4px;
+  transition-duration: 0.3s;	/*変化に掛かる時間*/
 
 }
 
-/*
-#logistic {
-  float: left;
-}
-
-#futsal {
-  float: left;
-}
-
-#aparel {
-  float: left;
-}
-
-#other {
-  float: left;
-} */
 
 
 .servise-contents img {
-  width: 100%;
+  width: 85%;
   height: auto;
+  border-radius: 6px;
+}
+
+
+
+.servise-contents a:hover {
+  opacity: .8;
 
 }
 
+.servise-contents a:last-child:hover {
+  opacity: .9;
+
+}
 
 /* about */
 
@@ -169,7 +173,7 @@ License URI: テーマのライセンスのURI
 
 .about-contents {
   margin: 0 0 0 auto;
-  width: 50%;
+  width: 55%;
 
 }
 
@@ -186,8 +190,6 @@ License URI: テーマのライセンスのURI
 
 }
 
-.servise-contents {
-}
 
 table{
   border-collapse:collapse;
@@ -220,6 +222,7 @@ td{
 td,th{
   padding:10px;
 }
+
 
 /* contact */
 
@@ -301,3 +304,67 @@ footer {
   clear: both;
 
  }
+
+
+
+
+
+
+
+
+
+
+
+/* スマートフォン用CSS */
+@media screen and (max-width: 640px) {
+
+.about-contents {
+  width: 100%;
+}
+
+.servise-contents a {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 12px;
+
+}
+
+.servise-contents img {
+  width: 90%;
+  margin: 0 auto;
+}
+
+
+
+.servise-wrapper {
+  left: 0%;
+
+}
+
+.servise h2 {
+    padding-bottom: 58px;
+    padding-top: 53px;
+    font-size: 69px;
+  }
+
+.baby {
+  background-position: right;
+}
+
+
+
+.your-class h2 {
+    font-size: 56px;
+}
+
+
+#table-header {
+    font-size: 21px;
+}
+
+table {
+  width: 86%;
+}
+
+
+}
