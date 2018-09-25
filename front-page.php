@@ -42,7 +42,7 @@
 
       <div class="servise-contents">
         <a href="#"  id="logistic">
-          <img src="<?php bloginfo('template_directory'); ?>/images/bridge.jpg" alt="">
+          <img src="<?php bloginfo('template_directory'); ?>/images/ship2.jpg" alt="">
         </a>
       </div>
 
