@@ -153,7 +153,7 @@ License URI: テーマのライセンスのURI
 
 
 
-.servise-contents a:hover {
+.servise-contents img:hover {
   opacity: .8;
   transform: scale(1.02);	/*画像の拡大率*/
 	transition-duration: 0.3s;	/*変化に掛かる時間*/
@@ -161,7 +161,7 @@ License URI: テーマのライセンスのURI
 
 }
 
-.servise-contents:last-child:hover a {
+.servise-contents:last-child:hover img {
   opacity: 0.95;
 
 }
@@ -318,8 +318,8 @@ footer {
 
 
 
-/* スマートフォン用CSS */
-@media screen and (max-width: 640px) {
+/* iPad用CSS */
+@media screen and (max-width: 800px) {
 
 .about-contents {
   width: 100%;
@@ -345,7 +345,7 @@ footer {
 }
 
 .servise h2 {
-    padding-bottom: 58px;
+    padding-bottom: 31px;
     padding-top: 53px;
     font-size: 69px;
   }
@@ -369,6 +369,47 @@ footer {
 table {
   width: 86%;
 }
+
+
+}
+
+
+
+/* iPhone6 7 8  X 用CSS */
+
+@media screen and (max-width: 380px) {
+
+  .your-class h2 {
+      font-size: 41px;
+  }
+
+
+  .servise h2 {
+      font-size: 52px;
+
+  }
+
+}
+
+
+/* iPhone Plus 用CSS */
+
+@media screen and (max-width: 419px) {
+
+  .your-class h2 {
+    font-size: 48px;
+
+  }
+
+  .servise h2 {
+      font-size: 61px;
+    }
+
+    .about h2 {
+    font-size: 74px;
+}
+
+
 
 
 }
