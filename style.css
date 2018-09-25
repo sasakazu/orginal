@@ -148,18 +148,21 @@ License URI: テーマのライセンスのURI
 .servise-contents img {
   width: 85%;
   height: auto;
-  border-radius: 6px;
+  border-radius: 2px;
 }
 
 
 
 .servise-contents a:hover {
   opacity: .8;
+  transform: scale(1.02);	/*画像の拡大率*/
+	transition-duration: 0.3s;	/*変化に掛かる時間*/
+
 
 }
 
-.servise-contents a:last-child:hover {
-  opacity: .9;
+.servise-contents:last-child:hover a {
+  opacity: 0.95;
 
 }
 
@@ -282,7 +285,7 @@ margin-right: 4px;
 .contact-contents a:hover {
   background: #FFF;
   color: #FF007B;
-  transition: .5s;
+  transition: .6s;
 }
 
 .fa-envelope {
@@ -360,6 +363,7 @@ footer {
 
 #table-header {
     font-size: 21px;
+    font-weight: normal;
 }
 
 table {
