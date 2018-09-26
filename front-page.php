@@ -34,8 +34,8 @@
 
 <div class="servise" style="background-image:url(<?php bloginfo('template_directory'); ?>/images/women.jpg);">
 
+  <h2>SERVISE</h2>
 
-    <h2>SERVISE</h2>
 
     <div class="servise-wrapper">
 

@@ -122,8 +122,9 @@ License URI: テーマのライセンスのURI
 
 }
 
-.servise h2 {
 
+
+.servise h2 {
     text-align: center;
     color: #000;
     padding-top: 70px;
@@ -311,11 +312,33 @@ footer {
 
 
 
+/* contact */
+
+.contact-header {
+   background: url(images/tablet.jpg);
+   background-position: center;
+   background-size: cover;
+}
+
+
+.contact-header h2 {
+  padding-top: 50px;
+  padding-bottom: 100px;
+  color: #FFF;
+  text-align: center;
+  font-size: 41px;
+}
+
+.contact-wrapper {
+  background: #f6f6f6 !important;
+  
+}
 
 
 
-
-
+.bg-light {
+    background: rgba(0, 0, 0, 0.4);
+}
 
 
 /* iPad用CSS */
